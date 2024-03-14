@@ -243,7 +243,7 @@ It would be more useful if we could see the filters that contributed most to a p
 
 Based on the works \[25-26].
 
-The basic concept is as simple as they come: For every input dimension of an input x, we evaluate the model with that dimension missing, and observe how the output changes. In particular, if $||f(x) — f(x-i)||$ is large, then the dimension must have been important because removing it changes the output a lot.
+The basic concept is as simple as they come: For every input dimension of an input x, we evaluate the model with that dimension missing, and observe how the output changes. In particular, if $\|\|f(x) — f(x-i)\|\|$ is large, then the dimension must have been important because removing it changes the output a lot.
 
 ![Occlusion explanation](https://i.imgur.com/kNIUVw5.png)
 
